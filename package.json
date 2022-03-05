@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "chart.js": "^3.7.1",
     "codejar": "^3.5.0",
     "sass": "^1.49.9"
   },
