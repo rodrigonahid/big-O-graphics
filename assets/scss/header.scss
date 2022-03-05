@@ -1,5 +1,5 @@
 header {
-  background-color: #0b0a0a;
+  background-color: $gray;
   padding: 16px;
   height: 50px;
 
@@ -9,8 +9,6 @@ header {
     justify-content: space-between;
 
     height: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
   }
 
   .logo {
