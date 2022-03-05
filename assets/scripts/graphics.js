@@ -1,4 +1,4 @@
-const ctx = document.getElementById("myChart").getContext("2d");
+const ctx = document.getElementById("myChart");
 
 const labels = ["January", "February", "March", "April", "May", "June"];
 

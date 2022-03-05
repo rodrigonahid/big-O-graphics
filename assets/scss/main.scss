@@ -10,8 +10,11 @@
   .side {
     flex: 1;
     width: 50%;
-    height: 400px;
     margin: 0 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     @media screen and (max-width: 1200px) {
       width: auto;
