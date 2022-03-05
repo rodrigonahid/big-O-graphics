@@ -37,6 +37,11 @@ braces@~3.0.2:
   optionalDependencies:
     fsevents "~2.3.2"
 
+codejar@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/codejar/-/codejar-3.5.0.tgz#be3a6a77b4c422998e56710ca854d166f8507eb2"
+  integrity sha512-uXrFZZ+yb23YY7+WtTux2Yyokt+Lty/kBnW/OhhEGp8IW8/lrJw5Gs1wwCyt2vpMfsVdudLmV5xAgYqsZY/49A==
+
 fill-range@^7.0.1:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/fill-range/-/fill-range-7.0.1.tgz#1919a6a7c75fe38b2c7c77e5198535da9acdda40"

@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "codejar": "^3.5.0",
     "sass": "^1.49.9"
   },
   "scripts": {
