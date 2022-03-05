@@ -1,0 +1,17 @@
+.main-content {
+  background-color: $black;
+  padding: 10vh 0;
+  .container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+    color: $white;
+  }
+  .side {
+    flex: 1;
+  }
+  .algorithms {
+    display: flex;
+  }
+}
