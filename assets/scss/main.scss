@@ -1,20 +1,36 @@
 .main-content {
   background-color: $gray;
   padding: 10vh 0;
+  @media screen and (max-width: 1200px) {
+    padding: 20px 0;
+  }
   .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     color: $white;
     @media screen and (max-width: 1200px) {
-      flex-direction: column;
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "left"
+        "controller"
+        "right";
     }
   }
   .side {
     flex: 1;
-    width: 50%;
+
     margin: 0 20px;
 
     display: flex;
     align-items: center;
     justify-content: center;
+
+    &.left {
+      grid-area: left;
+    }
+    &.right {
+      grid-area: right;
+    }
 
     @media screen and (max-width: 1200px) {
       width: auto;
@@ -28,5 +44,14 @@
   #myChart {
     background-color: $black;
     border-radius: 8px;
+  }
+  .controller {
+    @media screen and (min-width: 1200px) {
+      grid-column: span 2;
+      margin-top: 36px;
+    }
+    display: flex;
+    justify-content: center;
+    grid-area: controller;
   }
 }
