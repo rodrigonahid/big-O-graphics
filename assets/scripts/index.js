@@ -2,6 +2,11 @@ import { jar } from "./editor.js";
 import Graphics from "./graphics.js";
 
 let editorContent = "";
+
+jar.updateCode(`function main(){
+	// Write you funtion here
+}`);
+
 jar.onUpdate((item) => {
   editorContent = item;
 });

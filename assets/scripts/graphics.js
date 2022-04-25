@@ -8,7 +8,7 @@ const Graphics = {
         label: "My First dataset",
         backgroundColor: "#3989c7",
         borderColor: "#3989c7",
-        data: [0],
+        data: [0, 100],
       },
     ],
   },
@@ -22,7 +22,7 @@ const Graphics = {
     Graphics.chart = new Chart(Graphics.ctx, config);
   },
   update: (performance) => {
-    Graphics.data.labels.push(performance.toFixed(2));
+    Graphics.data.labels.push(Math.floor(performance));
     Graphics.data.datasets[0].data.push(performance.toFixed(0));
     const config = {
       type: "line",
